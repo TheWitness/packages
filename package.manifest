@@ -12,8 +12,8 @@
                 "class": "cacti",
                 "tags": "cacti statistics poller",
                 "installation": "Install the Package normally.  Enables monitoring of many Cacti related metrics.",
-                "version": "1.2.20",
-                "copyright": "GPL General Public License"
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
             }
         },
         {
@@ -43,8 +43,8 @@
                 "class": "router",
                 "tags": "cisco router",
                 "installation": "This is a fairly generic template for Cisco Routers",
-                "version": "1.2.20",
-                "copyright": "GPL General Public License"
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
             }
         },
         {
@@ -75,8 +75,8 @@
                 "class": "router",
                 "tags": "generic snmp device",
                 "installation": "This is a very 'generic' Device Template that will monitor interfaces, polling, time and ping time only.",
-                "version": "1.2.20",
-                "copyright": "GPL General Public License"
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
             }
         },
         {
@@ -91,8 +91,8 @@
                 "class": "linux",
                 "tags": "localhost linux unix",
                 "installation": "This package is only intended to monitoring the Cacti server.  It will not monitor other servers.",
-                "version": "1.2.20",
-                "copyright": "GPL General Public License"
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
             }
         },
         {
@@ -107,8 +107,24 @@
                 "class": "linux",
                 "tags": "linux net-snmp",
                 "installation": "Best for Linux Machines using Net-SNMP",
-                "version": "1.2.20",
-                "copyright": "GPL General Public License"
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
+            }
+        },
+        {
+            "kind": "Package",
+            "name": "PING - Advanced Ping",
+            "filename": "PING_Advanced_Ping.xml.gz",
+            "metadata": {
+                "author": "The Cacti Group",
+                "homepage": "cacti.net",
+                "email": "developers@cacti.net",
+                "description": "PING - Advanced Ping Graph Template Package",
+                "class": "general",
+                "tags": "ping advanced",
+                "installation": "Once imported, add to the Device Templates you wish.  Make sure you set default for automation.",
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
             }
         },
         {
@@ -139,8 +155,8 @@
                 "class": "windows",
                 "tags": "windows",
                 "installation": "This package is intended for Windows Devices",
-                "version": "1.2.20",
-                "copyright": "GPL General Public License"
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
             }
         }
     ],
