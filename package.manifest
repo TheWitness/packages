@@ -59,8 +59,8 @@
                 "class": "loadbalancer",
                 "tags": "load balaner netscaler citrix",
                 "installation": "This is a community provided Device Template.  Use at your own risk.",
-                "version": "1.2.20",
-                "copyright": "GPL General Public License"
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
             }
         },
         {
