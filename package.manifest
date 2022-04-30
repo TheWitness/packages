@@ -18,21 +18,6 @@
         },
         {
             "kind": "Package",
-            "name": "Cisco ASA Appliance",
-            "filename": "Cisco_ASA_Appliance.xml.gz",
-            "metadata": {
-                "author": "The Cacti Group",
-                "homepage": "cacti.net",
-                "email": "developers@cacti.net",
-                "description": "Cisco ASA - Security Appliance Device Package",
-                "class": "firewall",
-                "tags": "cisco asa security appliance",
-                "installation": [],
-                "version": "1.2.20"
-            }
-        },
-        {
-            "kind": "Package",
             "name": "Cisco Router",
             "filename": "Cisco_Router.xml.gz",
             "metadata": {
