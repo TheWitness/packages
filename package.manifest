@@ -124,8 +124,8 @@
                 "class": "storage",
                 "tags": "synology nas storage",
                 "installation": "This Device Template is a comprehensive Synology NAS Device Template that covers many attributes associated with the Synology product line.",
-                "version": "1.2.20",
-                "copyright": "GPL General Public License"
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
             }
         },
         {
