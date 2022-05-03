@@ -2,6 +2,102 @@
     "manifest": [
         {
             "kind": "Package",
+            "name": "ACME",
+            "filename": "ACME.xml.gz",
+            "metadata": {
+                "author": "The Cacti Group",
+                "homepage": "cacti.net",
+                "email": "developers@cacti.net",
+                "description": "ACME Device Package",
+                "class": "linux",
+                "tags": "ACME Packet Net-Net 4000 Series",
+                "installation": "ACME Packet Net-Net 4000 Series contributed by alteleid on 03-04-2007.",
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
+            }
+        },
+        {
+            "kind": "Package",
+            "name": "AKCP Device",
+            "filename": "AKCP_Device.xml.gz",
+            "metadata": {
+                "author": "The Cacti Group",
+                "homepage": "cacti.net",
+                "email": "developers@cacti.net",
+                "description": "AKCP Device Device Package",
+                "class": "facilities",
+                "tags": "akcp probe environmental",
+                "installation": "\nThis is a script query based template, and dynamically determines various sensor types attached to an AKCP device. This template will work against any AKCP device, and support any number of enumerated sensors attached to a device \u2026 it's not limited to just a SensorProbe2 for example. Currently, this template supports Airflow, Temperature, Humidity, Temperature\/Humidity and 4-20mA sensors. If you have another sensor you'd like to trend, just let me know. I'll give you my address and you can send me your sensor =) j\/k. It should be possible to add any other supported sensor without much work.\n\nThe script query pulls the sensor name directly from the AKCP configuration and sets this as the graph title. Various HRULEs are setup for the various AKCP based thresholds set for each sensor. The HRULE will not show up if your data isn't reaching that level. If you look at the Airflow Percent graph below, you'll see an example of the HRULEs. The other graphs aren't near their thresholds, so these are left out.\n\nMany of the per-graph settings are not templated. This allows you to set different paramters for different sensors. Be aware, that when creating multiple graphs, you will only be prompted to configure *ONE* of the graphs. All others will get the defaults. You can always go back and re-configure them as needed. I think this is due to a bug in Cacti, but I am not sure.  Thanks to Eric Schroeller.  Contributed 11-05-2013.\n",
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
+            }
+        },
+        {
+            "kind": "Package",
+            "name": "APC InfraStruXure InRow CRAC",
+            "filename": "APC_InfraStruXure_InRow_CRAC.xml.gz",
+            "metadata": {
+                "author": "The Cacti Group",
+                "homepage": "cacti.net",
+                "email": "developers@cacti.net",
+                "description": "APC InfraStruXure InRow CRAC Device Package",
+                "class": "facilities",
+                "tags": "apc infrastruxure inrow crac",
+                "installation": "We have determined that this template may only support ACRC500 units out-of-the-box. Other models of InRow units may not work immediately. It appears that APC uses different OID structures for each model of InRow unit. I cannot explain why they would opt to do this. Follow through the discussion on the forum post: Host Template for APC InfraStruXure InRow CRAC Units\n\nSeveral individuals have successfully modified the template to work with different units. Ideally, I would have developed this template to handle any unit - this would have required the use of script queries instead of snmp queries. Seeing as I don't have access to any other InRow units, I likely won't be able to make any modifications to support the full line of InRow products.  Package Requires SNMP Access.  Thanks to Eric Schroeller.  Contributed 02-25-2012",
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
+            }
+        },
+        {
+            "kind": "Package",
+            "name": "APC InfraStruXure PDU",
+            "filename": "APC_InfraStruXure_PDU.xml.gz",
+            "metadata": {
+                "author": "The Cacti Group",
+                "homepage": "cacti.net",
+                "email": "developers@cacti.net",
+                "description": "APC InfraStruXure PDU Device Package",
+                "class": "ups",
+                "tags": "apc infrastruxure pdu",
+                "installation": "Package Requires SNMP Access.  Thanks to Eric Schroeller.  Contributed 02-25-2012",
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
+            }
+        },
+        {
+            "kind": "Package",
+            "name": "APC Smart UPS",
+            "filename": "APC_Smart_UPS.xml.gz",
+            "metadata": {
+                "author": "The Cacti Group",
+                "homepage": "cacti.net",
+                "email": "developers@cacti.net",
+                "description": "APC Smart UPS Device Package",
+                "class": "ups",
+                "tags": "smart ups apc",
+                "installation": "Standard SmartUPS UPS Device Package.  Contributed by timi@crystal.rdstm.ro on 10-08-2011",
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
+            }
+        },
+        {
+            "kind": "Package",
+            "name": "BayTech PDU",
+            "filename": "BayTech_PDU.xml.gz",
+            "metadata": {
+                "author": "The Cacti Group",
+                "homepage": "cacti.net",
+                "email": "developers@cacti.net",
+                "description": "BayTech PDU Device Package",
+                "class": "facilities",
+                "tags": "baytech pdu device package",
+                "installation": "This template set allows you to trend statistics from a BayTech PDU. It is designed to support cascaded PDUs. Upon importing the template the following items will be included.  \n\nContributed by Eric Schoeller on 12-01-2013.",
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
+            }
+        },
+        {
+            "kind": "Package",
             "name": "Cacti Stats",
             "filename": "Cacti_Stats.xml.gz",
             "metadata": {
@@ -76,6 +172,22 @@
                 "class": "linux",
                 "tags": "localhost linux unix",
                 "installation": "This package is only intended to monitoring the Cacti server.  It will not monitor other servers.",
+                "version": "1.2.21",
+                "copyright": "GNU General Public License"
+            }
+        },
+        {
+            "kind": "Package",
+            "name": "Motorola SB6141",
+            "filename": "Motorola_SB6141.xml.gz",
+            "metadata": {
+                "author": "The Cacti Group",
+                "homepage": "cacti.net",
+                "email": "developers@cacti.net",
+                "description": "Motorola SB6141 Device Package",
+                "class": "telephony",
+                "tags": "motorola surfboard cable modem",
+                "installation": "ARRIS\/Motorola SB6141 (Downstream Signal to Noise Ratio and Power Level, Upstream Power Level, Codewords).  Contributed by tpowers on 05-01-2015",
                 "version": "1.2.21",
                 "copyright": "GNU General Public License"
             }
